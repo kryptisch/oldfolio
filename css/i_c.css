@@ -71,7 +71,7 @@ nav li a{
  }
 
  nav ul li a.active:hover{
-     cursor:disabled;
+     cursor:;
     border-radius: 10px;
     border-bottom: 5px solid green;
     border-left: 2px solid green;
@@ -103,7 +103,7 @@ nav li a{
 
 @media(max-width: 960px)
 {
-    .menu-toggle{
+    /* .menu-toggle{
         display: block;
         width: 40px;
         height: 40px;
@@ -113,24 +113,24 @@ nav li a{
         text-align: center;
         font-size: 20px;
         color: #069370;
-    }
+    } */
 
-    .menu-toggle:before{
+    /* .menu-toggle:before{
         content: '\f0c9';
         font-family: fontAwesome;
         line-height: 40px;
     }
     .menu-toggle.active:before{
         content: '\f00d';
-    }
+    } */
     nav{
         display: none;
     }
-    nav.active{
+    nav{
         display: block;
         width: 100%;
     }
-    nav.active ul{
+    nav ul{
         display: block;
     }
 
